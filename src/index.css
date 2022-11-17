@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* # THIS IS FONT IMPORT 
+
+-available font
+
+- montserrat
+- roboto
+- roboto slab
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Kenia&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&family=Sigmar+One&display=swap');
+/* ------------------------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* # NOTE 
+- if you want to change body font do...
+
+font-family: 'Montserrat', sans-serif;  // current font
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.bold_font {
+    font-family: 'Sigmar One', cursive;
+}
+
+.bg {
+    background: rgb(135,186,252);
+    background: radial-gradient(circle, rgba(135,186,252,1) 0%, rgba(67,137,222,1) 100%);
+}
+
+  
+  .border-deco-b2 {
+    border-inline-start: 4px solid;
+    border-block-end: 4px solid;
+    border-image-source: radial-gradient(circle at bottom left, #4389DE, transparent 30%);
+    border-image-slice: 1;
+    padding: 10px;
+  }
+
+  .border-deco-b {
+    border-inline-end: 4px solid;
+    border-block-end: 4px solid;
+    border-image-source: radial-gradient(circle at bottom right, #4389DE, transparent 30%);
+    border-image-slice: 1;
+    padding: 10px;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  .wordbreak {
+    word-wrap: break-word;
+  }
+
+
+  /* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #eeeeee; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4389DE; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+@layer components {
+    .btn {
+        @apply w-fit px-4 py-2 mx-auto rounded-md  bg-[#565462] text-white font-semibold 
+    }
+
+    .nav_icon {
+        @apply w-6 h-6 cursor-pointer
+    }
+
+    .nav_link {
+        @apply text-sm  cursor-pointer 
+    }
+
+    .home_heading {
+        @apply font-semibold text-2xl text-center tracking-wider underline underline-offset-4 mb-5 md:text-2xl
+    }
+
+    .home_para {
+        @apply tracking-widest leading-7 text-center min-h-[6rem] sm:min-h-fit 
+    }
+
+    .homeSection_text {
+        @apply text-sm font-semibold sm:text-base md:text-lg 
+    }
+
+    .homeSection_span {
+        @apply text-blue
+    }
+
+    .homebox_icon {
+        @apply w-12 h-12 text-blue 
+    }
+
+    .contact_logo {
+        @apply w-8 h-8 text-blue cursor-pointer sm:h-10 sm:w-10
+    }
+
+    .input_field {
+        @apply border border-blue rounded-md w-full h-[2.5rem] outline-none p-1 
+    }
+
+    .border_channel {
+        @apply sm:border sm:border-blue sm:rounded-2xl sm:p-4 
+    }
+
+    .about_text {
+        @apply text-lg p-1
+    }
+
+    .reseller_heading {
+        @apply font-semibold text-lg
+    }
+
+    .download_heading {
+        @apply font-semibold py-2 bg-blue text-white w-fit px-3 text-xl 
+    }
+
+    .download_para {
+        @apply tracking-wider py-2 font-semibold text-xl
+    }
+
+    .animation_price {
+        @apply transition-all duration-[1s] ease-in-out 
+    }
+    
+}
+
