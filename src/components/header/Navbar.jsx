@@ -65,20 +65,18 @@ const Navbar = () => {
                 className='h-8 w-8 mb-2 cursor-pointer'/>
 
                     <div 
-                    className='flex items-center gap-2 justify-center cursor-pointer'>        
-                        <div className='cursor-pointer'
+                    className='flex items-center gap-4 justify-center cursor-pointer'>        
+                        <h1 className='cursor-pointer'
                         onClick={() => dispatch(setLanguageEN())}
                         >
-                        <TinyFlag className="w-fit"  country='GB'
-                        fallbackImageURL={flagURL('GB')} />
-                        </div>
+                        <img className='w-7' src="https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/GB.svg" alt="" />
+                        </h1>
 
-                        <div className='cursor-pointer'
+                        <h1 className='cursor-pointer'
                         onClick={() => dispatch(setLanguageMM())}
                         >
-                        <TinyFlag className="w-fit"  country='MM'
-                        fallbackImageURL={flagURL('MM')}/>
-                        </div>
+                        <img className='w-7' src="https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/MM.svg" alt="" />
+                        </h1>
                     </div>
 
                 </div>
@@ -109,7 +107,7 @@ const Navbar = () => {
                 <h1 className='text-center underline underline-offset-8 mb-6'>{contact_via.name}</h1>
                 <div className='flex items-center justify-center gap-6'>
 
-                    <a href="https://www.facebook.com/blueoceantv.mm/" target='_blank'><BsFacebook onClick={() => setShowMenu(false)}
+                    <a href="https://www.facebook.com/profile.php?id=100067427025936&mibextid=LQQJ4d" target='_blank'><BsFacebook onClick={() => setShowMenu(false)}
                     className='nav_icon'/></a>
 
                     <a href="https://instagram.com/Blue_Ocean_Tv?igshid=ue88wjka9m5y" target='_blank'><BsInstagram onClick={() => setShowMenu(false)}
@@ -148,8 +146,7 @@ const Navbar = () => {
             <div className='cursor-pointer'
             onClick={() => dispatch(setLanguageEN())}
             >
-                <TinyFlag className="w-fit"  country='GB'
-                fallbackImageURL={flagURL('GB')} />
+                <img className='w-6' src="https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/GB.svg" alt="" />
                 </div>
 
 
@@ -157,8 +154,7 @@ const Navbar = () => {
             <div className='cursor-pointer'
             onClick={() => dispatch(setLanguageMM())}
             >
-                <TinyFlag className="w-fit"  country='MM'
-                fallbackImageURL={flagURL('MM')}/>
+                <img className='w-6' src="https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/MM.svg" alt="" />
                 </div>
             </div>
         </div>

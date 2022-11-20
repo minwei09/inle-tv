@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import {MdOutlineKeyboardArrowRight, MdOutlineKeyboardArrowDown} from 'react-icons/md'
 
 import img_1 from '../assets/download/store.jpg'
-import img_2 from '../assets/download/tivimate.jpg'
+import img_2 from '../assets/download/stb.jpg'
 import img_3 from '../assets/download/xc.jpg'
 import img_4 from '../assets/download/vod.jpg'
 
@@ -28,13 +28,13 @@ const id_4_link2 = 'https://www.mediafire.com/file/wvrp1b96csf1o2j/BOPLUS.apk/fi
 
 
 const downloadLinks = [
-    {id: 1, name: 'BLUE OCEAN APP STORE', link1Name: 'DIRECT DOWNLOAD', link1: id_1_link1,  img: img_1},
+    {id: 1, name: 'INLE TV APP STORE', link1Name: 'DIRECT DOWNLOAD', link1: id_1_link1,  img: img_1},
 
-    {id: 2, name: 'BLUE OCEAN TIVIMATE', link1Name: 'DIRECT DOWNLOAD', link1: id_2_link1, link2Name: 'MEDIAFIRE', link2: id_2_link2, img: img_2},
+    {id: 2, name: 'INLE TV STB', link1Name: 'DIRECT DOWNLOAD', link1: id_2_link1, link2Name: 'MEDIAFIRE', link2: id_2_link2, img: img_2},
 
-    {id: 3, name: 'BLUE OCEAN XC', link1Name: 'DIRECT DOWNLOAD', link1: id_3_link1, link2Name: 'MEDIAFIRE', link2: id_3_link2, img: img_3},
+    {id: 3, name: 'INLE TV XC', link1Name: 'DIRECT DOWNLOAD', link1: id_3_link1, link2Name: 'MEDIAFIRE', link2: id_3_link2, img: img_3},
     
-    {id: 4, name: 'BLUE OCEAN VOD', link1Name: 'DIRECT DOWNLOAD', link1: id_4_link1, link2Name: 'MEDIAFIRE', link2: id_4_link2, img:img_4},
+    {id: 4, name: 'INLE TV VOD', link1Name: 'DIRECT DOWNLOAD', link1: id_4_link1, link2Name: 'MEDIAFIRE', link2: id_4_link2, img:img_4},
 ]
 
 const Download = () => {

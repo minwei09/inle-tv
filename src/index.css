@@ -34,6 +34,7 @@ font-family: 'Roboto Slab', serif;
 
 body {
     font-family: 'Montserrat', sans-serif; 
+    line-height: 2.5rem;
 }
 
 .bold_font {
@@ -93,7 +94,7 @@ body {
 
 @layer components {
     .btn {
-        @apply w-fit px-4 py-2 mx-auto rounded-md  bg-[#565462] text-white font-semibold 
+        @apply w-fit px-4 py-2 mx-auto rounded-md  bg-[#0c0fd0] text-white font-semibold 
     }
 
     .nav_icon {

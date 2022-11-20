@@ -13,7 +13,7 @@ const Contact = () => {
         <h1 className='text-2xl text-center text-blue '>{contact}</h1>
         <div className='flex flex-wrap gap-5 sm:gap-10 justify-center p-6 md:p-6 '>
 
-          <a href="https://www.facebook.com/blueoceantv.mm/" target='_blank'><BsFacebook className='contact_logo'/></a>
+          <a href="https://www.facebook.com/profile.php?id=100067427025936&mibextid=LQQJ4d" target='_blank'><BsFacebook className='contact_logo'/></a>
 
           <a href="https://m.me/blueoceantv.mm" target='_blank'><BsMessenger className='contact_logo'/></a>
 

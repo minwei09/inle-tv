@@ -174,7 +174,7 @@ const Pricing = () => {
             <h1 className='text-lg md:text-2xl font-semibold text-center py-2'>{p2}</h1>
 
             <div className='flex gap-6 justify-center py-8 text-blue'>
-                <a href="https://www.facebook.com/blueoceantv.mm/" target='_blank'><BsFacebook className='w-8 h-8 cursor-pointer'/></a>
+                <a href="https://www.facebook.com/profile.php?id=100067427025936&mibextid=LQQJ4d" target='_blank'><BsFacebook className='w-8 h-8 cursor-pointer'/></a>
 
                 <a href="https://m.me/blueoceantv.mm" target='_blank'><BsMessenger className='w-8 h-8 cursor-pointer'/></a>
 

@@ -37,7 +37,7 @@ const AboutUs = () => {
           <div className='flex items-center justify-center lg:w-[50%]'><img className='rounded-2xl  h-full ' src={Img1} alt="" /></div>
 
           <div className='flex flex-col gap-y-4 lg:w-[50%]'>     
-            <h1 className='text-blue text-3xl font-semibold text-center lg:text-4xl'>{p1}</h1> 
+            <h1 className='text-blue text-3xl font-semibold text-center lg:text-4xl '>{p1}</h1> 
 
             <h1 className='font-semibold text-blue py-3 tracking-wider'>{p2}</h1>
 
