@@ -137,7 +137,7 @@ const Download = () => {
 
         <img src={smartImg} alt="" />
         
-        <div>
+        <div className='py-4'>
             <div 
             onClick={() =>setShowSmart(!showSmart)}
             className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
@@ -180,7 +180,7 @@ const Download = () => {
         </div>
 
 
-        <div>
+        <div className='py-4'>
             <div 
             onClick={() =>setShowFireStick(!showFireStick)}
             className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
@@ -211,7 +211,7 @@ const Download = () => {
         </div>}
         </div>
 
-        <div className='  leading-[2rem]'>
+        <div className='py-4  leading-[2rem]'>
             <div 
             onClick={() =>setShowBuffer(!showBuffer)}
             className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
