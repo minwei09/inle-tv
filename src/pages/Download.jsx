@@ -141,7 +141,7 @@ const Download = () => {
             <div 
             onClick={() =>setShowSmart(!showSmart)}
             className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
-                <h1 className='text-xl'>{h3}</h1>
+                <h1 className='leading-5 p-3 sm:text-xl'>{h3}</h1>
                 {showSmart ?
                 <MdOutlineKeyboardArrowDown className='w-8 h-8'/> : <MdOutlineKeyboardArrowRight className='w-8 h-8'/>}
             </div>
@@ -184,7 +184,7 @@ const Download = () => {
             <div 
             onClick={() =>setShowFireStick(!showFireStick)}
             className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
-                <h1 className='text-xl'>{h1}</h1>
+                <h1 className='leading-5 p-3 sm:text-xl'>{h1}</h1>
                 {showFireStick ?
                 <MdOutlineKeyboardArrowDown className='w-8 h-8'/> : <MdOutlineKeyboardArrowRight className='w-8 h-8'/>}
             </div>
@@ -215,7 +215,7 @@ const Download = () => {
             <div 
             onClick={() =>setShowBuffer(!showBuffer)}
             className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
-                <h1 className='text-xl'>{h2}</h1>
+                <h1 className='leading-5 p-3 sm:text-xl'>{h2}</h1>
                 {showBuffer ?
                 <MdOutlineKeyboardArrowDown className='w-8 h-8'/> : <MdOutlineKeyboardArrowRight className='w-8 h-8'/>}
             </div>
