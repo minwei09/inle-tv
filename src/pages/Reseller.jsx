@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import handshake from '../assets/reseller/reseller.jpg'
 import img from '../assets/reseller/reseller2.jpg'
 import ModalReseller from '../components/reseller/ModalReseller'
-import {BsFillCheckCircleFill, BsXCircle, BsFacebook, BsMessenger, BsTelegram, BsSignal, BsWhatsapp, BsInstagram} from 'react-icons/bs'
+import {BsFillCheckCircleFill, BsXCircle, BsFacebook, BsMessenger, BsTelegram, BsSignal, BsWhatsapp, BsInstagram, BsYoutube} from 'react-icons/bs'
 import logo from '../assets/pricing.jpg'
 
 const payment = [
@@ -131,9 +131,9 @@ const Reseller = () => {
             <div className='flex gap-6 justify-center py-8 text-blue'>
                 <a href="https://www.facebook.com/profile.php?id=100067427025936&mibextid=LQQJ4d" target='_blank'><BsFacebook className='w-8 h-8 cursor-pointer'/></a>
 
-                <a href="https://m.me/blueoceantv.mm" target='_blank'><BsMessenger className='w-8 h-8 cursor-pointer'/></a>
+                <a href="https://m.me/100067427025936" target='_blank'><BsMessenger className='w-8 h-8 cursor-pointer'/></a>
 
-                <a href="https://instagram.com/Blue_Ocean_Tv?igshid=ue88wjka9m5y" target='_blank'><BsInstagram className='w-8 h-8 cursor-pointer'/></a>
+                <a href="https://youtube.com/channel/UC9p77JM8Te7D18-1gboStNw" target='_blank'><BsYoutube className='w-8 h-8 cursor-pointer'/></a>
 
                 <a href="https://t.me/CONTACT_SKYNET" target='_blank'><BsTelegram className='w-8 h-8 cursor-pointer'/></a>
 

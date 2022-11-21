@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import TinyFlag from "tiny-flag-react";
 
 import {MdMenu} from 'react-icons/md'
-import { BsX, BsFacebook, BsMessenger, BsTelegram, BsInstagram, BsWhatsapp} from 'react-icons/bs'
+import { BsX, BsFacebook, BsMessenger, BsTelegram, BsYoutube, BsWhatsapp} from 'react-icons/bs'
 
 
 import { motion } from 'framer-motion'
@@ -36,14 +36,42 @@ const Navbar = () => {
 
   return (
     <div className='fixed top-0 left-0 z-[100] w-full bg-softblue h-[10vh] flex items-center justify-between px-[1rem] md:px-4 lg:px-8 xl:px-12 shadow-sm text-white'>
+
+
+
         {/* <img className='h-full p-2' src={Logo} alt="" /> */}
         <Link to='/'><h1 className='cursor-pointer'>InleLive TV</h1></Link>
-        <motion.div className='block md:hidden'
+
+        <div className='flex  gap-4'>
+
+<motion.div className='block md:hidden'
         whileTap={{ scale: 0.8 }}>
+
         <MdMenu       
         onClick={() => setShowMenu(true)}
         className='w-7 h-7 cursor-pointer'/>
         </motion.div>
+
+        <div 
+                    className='flex md:hidden items-center gap-4 justify-center cursor-pointer'>        
+                        <h1 className='cursor-pointer'
+                        onClick={() => dispatch(setLanguageEN())}
+                        >
+                        <img className='w-7' src="https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/GB.svg" alt="" />
+                        </h1>
+
+                        <h1 className='cursor-pointer'
+                        onClick={() => dispatch(setLanguageMM())}
+                        >
+                        <img className='w-7' src="https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/MM.svg" alt="" />
+                        </h1>
+        </div>
+
+
+        
+        </div>
+
+        
 
         {
             showMenu &&
@@ -64,20 +92,7 @@ const Navbar = () => {
                 onClick={() => setShowMenu(false)}
                 className='h-8 w-8 mb-2 cursor-pointer'/>
 
-                    <div 
-                    className='flex items-center gap-4 justify-center cursor-pointer'>        
-                        <h1 className='cursor-pointer'
-                        onClick={() => dispatch(setLanguageEN())}
-                        >
-                        <img className='w-7' src="https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/GB.svg" alt="" />
-                        </h1>
-
-                        <h1 className='cursor-pointer'
-                        onClick={() => dispatch(setLanguageMM())}
-                        >
-                        <img className='w-7' src="https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/MM.svg" alt="" />
-                        </h1>
-                    </div>
+                
 
                 </div>
 
@@ -110,7 +125,7 @@ const Navbar = () => {
                     <a href="https://www.facebook.com/profile.php?id=100067427025936&mibextid=LQQJ4d" target='_blank'><BsFacebook onClick={() => setShowMenu(false)}
                     className='nav_icon'/></a>
 
-                    <a href="https://instagram.com/Blue_Ocean_Tv?igshid=ue88wjka9m5y" target='_blank'><BsInstagram onClick={() => setShowMenu(false)}
+                    <a href="https://youtube.com/channel/UC9p77JM8Te7D18-1gboStNw" target='_blank'><BsYoutube onClick={() => setShowMenu(false)}
                     className='nav_icon'/></a>
 
                     <a href="https://t.me/CONTACT_SKYNET" target='_blank'><BsTelegram onClick={() => setShowMenu(false)}

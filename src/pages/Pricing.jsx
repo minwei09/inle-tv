@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {BsFillCheckCircleFill, BsInstagram, BsFacebook, BsMessenger, BsTelegram, BsSignal, BsWhatsapp} from 'react-icons/bs'
+import {BsFillCheckCircleFill, BsInstagram, BsFacebook, BsMessenger, BsTelegram, BsSignal, BsWhatsapp, BsYoutube} from 'react-icons/bs'
 import {FaGooglePay} from 'react-icons/fa'
 import {SiCashapp} from 'react-icons/si'
 import {IoLogoVenmo} from 'react-icons/io5'
@@ -176,9 +176,9 @@ const Pricing = () => {
             <div className='flex gap-6 justify-center py-8 text-blue'>
                 <a href="https://www.facebook.com/profile.php?id=100067427025936&mibextid=LQQJ4d" target='_blank'><BsFacebook className='w-8 h-8 cursor-pointer'/></a>
 
-                <a href="https://m.me/blueoceantv.mm" target='_blank'><BsMessenger className='w-8 h-8 cursor-pointer'/></a>
+                <a href="https://m.me/100067427025936" target='_blank'><BsMessenger className='w-8 h-8 cursor-pointer'/></a>
 
-                <a href="https://instagram.com/Blue_Ocean_Tv?igshid=ue88wjka9m5y" target='_blank'><BsInstagram className='w-8 h-8 cursor-pointer'/></a>
+                <a href="https://youtube.com/channel/UC9p77JM8Te7D18-1gboStNw" target='_blank'><BsYoutube className='w-8 h-8 cursor-pointer'/></a>
 
                 <a href="https://t.me/CONTACT_SKYNET" target='_blank'><BsTelegram className='w-8 h-8 cursor-pointer'/></a>
 
