@@ -76,15 +76,15 @@ const Pricing = () => {
                 <ul className='flex relative items-center justify-center  w-fit mx-auto  sm:gap-x-5 md:gap-x-10 rounded-full cursor-pointer '>
                     <li 
                     onClick={() => {setActiveOne(true), setActiveTwo(false), setActiveThree(false)}}
-                    className={`'relative z-[1] rounded-full text-sm font-semibold p-1 px-2 py-3 sm:p-4 md:text-base  ${activeOne && 'text-white'}`}>1 Connection</li>
+                    className={`'relative z-[1] rounded-full text-sm font-semibold p-1 px-2 py-3 sm:p-4 md:text-base min-w-[100px]  ${activeOne && 'text-white'}`}>1 Connection</li>
                     <li 
                     onClick={() => {setActiveOne(false), setActiveTwo(true), setActiveThree(false)}}
-                    className={`'relative z-[1] rounded-full text-sm font-semibold p-1 px-2 py-3 sm:p-4 md:text-base  ${activeTwo && 'text-white'}`}>3 Connection</li>
+                    className={`'relative z-[1] rounded-full text-sm font-semibold p-1 px-2 py-3 sm:p-4 md:text-base min-w-[106px]  ${activeTwo && 'text-white'}`}>3 Connection</li>
                     <li 
                     onClick={() => {setActiveOne(false), setActiveTwo(false), setActiveThree(true)}}
-                    className={`'relative z-[1] rounded-full text-sm font-semibold p-1 px-2 py-3 sm:p-4 md:text-base  ${activeThree && 'text-white'}`}>5 Connection</li>
+                    className={`'relative z-[1] rounded-full text-sm font-semibold p-1 px-2 py-3 sm:p-4 md:text-base min-w-[106px]  ${activeThree && 'text-white'}`}>5 Connection</li>
 
-                    <div className={`absolute top-0 w-[106px] sm:w-[122px] md:w-[140px]  h-full bg-blue rounded-full transition-all duration-200 ease-in-out ${activeOne && "left-0"} ${activeTwo && "left-[6.7rem] sm:left-[9rem] md:left-[11rem]"} ${activeThree && "left-[13.5rem] sm:left-[18rem] md:left-[22rem]"}`}></div>
+                    <div className={`absolute top-0 w-[100px] sm:w-[122px] md:w-[140px]  h-full bg-blue rounded-full transition-all duration-200 ease-in-out ${activeOne && "left-0"} ${activeTwo && "left-[6.7rem] sm:left-[9rem] md:left-[11rem]"} ${activeThree && "left-[13.5rem] sm:left-[18rem] md:left-[22rem]"}`}></div>
                 </ul>
             </div>
 

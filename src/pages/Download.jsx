@@ -12,18 +12,18 @@ import web_playerImg from '../assets/download/player.jpg'
 import { useSelector } from 'react-redux'
 const watch_player_link = 'http://tonystarks.website/tonystarks/alextv020820/index.php?loggedout'
 
-const id_1_link1 = 'https://s.id/botv'
+const id_1_link1 = 'https://archive.org/download/blueoceantv/InleTVAppStore.apk'
 
 
-const id_2_link1 = 'https://tinyurl.com/blueoceantivi'
+const id_2_link1 = 'https://tinyurl.com/inlelivesupanew'
 const id_2_link2 = 'https://www.mediafire.com/file/6gqrfdmle2ab8aw/Blue_Ocean_TIVI.apk/file'
 
 
-const id_3_link1 = 'https://www.google.com/url?q=https%3A%2F%2Farchive.org%2Fdownload%2Fblueoceantv%2FBOXC.apk&sa=D&sntz=1&usg=AOvVaw3l_r4p7tkNKsq4Oo1JpVEj'
+const id_3_link1 = 'https://archive.org/download/blueoceantv/InleLiveTV.apk'
 const id_3_link2 = 'https://www.google.com/url?q=https%3A%2F%2Fwww.mediafire.com%2Ffile%2Ff6rx9ul5j5nwp1h%2FBOXC.apk%2Ffile&sa=D&sntz=1&usg=AOvVaw0VdBniPVO-_zPv49GaFgR5'
 
 
-const id_4_link1 = 'https://tinyurl.com/blueoceanplus'
+const id_4_link1 = 'https://tinyurl.com/inlevodplus'
 const id_4_link2 = 'https://www.mediafire.com/file/wvrp1b96csf1o2j/BOPLUS.apk/file'
 
 
@@ -84,9 +84,9 @@ const Download = () => {
                     <a href={item.link1} className="btn rounded-full w-[15rem] text-center" target='_blank'>{item.link1Name}</a>
                     }
 
-                    {item.link2 &&
+                    {/* {item.link2 &&
                     <a href={item.link2} className="btn rounded-full w-[15rem] text-center" target='_blank'>{item.link2Name}</a>
-                    }
+                    } */}
 
                 </div>
             </div>

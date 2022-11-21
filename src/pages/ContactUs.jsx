@@ -37,7 +37,7 @@ const ContactUs = () => {
         <p className='text-lg'>{p2}
         <a href="mailto:blueoceanservice1@gmail.com">
             <div className='mt-3 flex flex-wrap items-center gap-3 w-fit border px-2 py-1 text-blue border-blue rounded-md sm:text-lg hover:text-white hover:bg-blue'>
-                <h1 className='wordbreak'>blueoceanservice1@gmail.com </h1>
+                <h1 className='wordbreak'>inlelivetv@gmail.com </h1>
                 <BsArrowRight />
             </div>
         </a>
