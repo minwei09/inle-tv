@@ -5,6 +5,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay,Pagination } from "swiper";
 import Typical from 'react-typical'
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 // image
 
@@ -39,6 +40,12 @@ const Home = () => {
 
   const homeHeading3 = useSelector( state => state.language.choose_Language[2].HomePage[2])
 
+  const [text] = useTypewriter({
+    words: [`${homeHeading2.name}`],
+    loop: Infinity,
+    onLoopDone: () => console.log(`loop completed after 3 runs.`)
+  })
+
 
   return (
     <div className='p-6 text-black '
@@ -67,11 +74,15 @@ const Home = () => {
       {/* - TEXT CHANGE */}
       <div className="mt-5 h[15%] flex flex-col items-center justify-center b-gradient-to-r from-blue  to-softblue sm:bg-none p-4 rounded-md min-h-[18rem] sm:min-h-fit">
         <h1 className="home_heading">{homeHeading1.name}</h1>
-        <Typical className="home_para text-blue"
+        {/* <Typical className="home_para text-blue"
           steps={[`${homeHeading2.name}`, 3000, '', 500]}
           loop={Infinity}
           wrapper="p"
-        />
+        /> */}
+        <div>
+          <span>{text}</span>
+          <Cursor cursorColor='black' />
+        </div>
       </div>
 
       <HomeBox />
