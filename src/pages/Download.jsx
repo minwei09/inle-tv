@@ -137,7 +137,7 @@ const Download = () => {
 
         <img src={smartImg} alt="" />
         
-        <div className='py-4'>
+        <div className='py-4 mt-20'>
             <div 
             onClick={() =>setShowSmart(!showSmart)}
             className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
@@ -211,7 +211,7 @@ const Download = () => {
         </div>}
         </div>
 
-        <div className='py-4  leading-[2rem]'>
+        <div className='py-4 mb-20 leading-[2rem]'>
             <div 
             onClick={() =>setShowBuffer(!showBuffer)}
             className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
