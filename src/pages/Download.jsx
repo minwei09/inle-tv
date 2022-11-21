@@ -8,9 +8,12 @@ import img_3 from '../assets/download/xc.jpg'
 import img_4 from '../assets/download/vod.jpg'
 
 import img_5 from '../assets/download/download_img.jpg'
+
 import web_playerImg from '../assets/download/player.jpg'
+import smartImg from '../assets/download/smarttv.jpg'
+
 import { useSelector } from 'react-redux'
-const watch_player_link = 'http://tonystarks.website/tonystarks/alextv020820/index.php?loggedout'
+const watch_player_link = 'http://mandalay.ga:8080/webplayer/login.php'
 
 const id_1_link1 = 'https://archive.org/download/blueoceantv/InleTVAppStore.apk'
 
@@ -40,6 +43,8 @@ const downloadLinks = [
 const Download = () => {
 
     const [showBuffer, setShowBuffer] = useState(false)
+    const [showFireStick, setShowFireStick] = useState(false)
+    const [showSmart, setShowSmart] = useState(false)
 
     const h1 = useSelector( state => state.language.choose_Language[7].Download[0].h1)
 
@@ -62,6 +67,32 @@ const Download = () => {
     const b6 = useSelector( state => state.language.choose_Language[7].Download[15].b6)
     const b7 = useSelector( state => state.language.choose_Language[7].Download[16].b7)
     const b8 = useSelector( state => state.language.choose_Language[7].Download[17].b8)
+
+    const h3 = useSelector( state => state.language.choose_Language[7].Download[18].h3)
+    const s1 = useSelector( state => state.language.choose_Language[7].Download[19].s1)
+    const s2 = useSelector( state => state.language.choose_Language[7].Download[20].s2)
+    const s3 = useSelector( state => state.language.choose_Language[7].Download[21].s3)
+    const s4 = useSelector( state => state.language.choose_Language[7].Download[22].s4)
+
+    const samsungh1 = useSelector( state => state.language.choose_Language[7].Download[23].samsungh1)
+    const samsungp1 = useSelector( state => state.language.choose_Language[7].Download[24].samsungp1)
+    const samsungp2 = useSelector( state => state.language.choose_Language[7].Download[25].samsungp2)
+    const samsungp3 = useSelector( state => state.language.choose_Language[7].Download[26].samsungp3)
+    const samsungp4 = useSelector( state => state.language.choose_Language[7].Download[27].samsungp4)
+    const samsungp5 = useSelector( state => state.language.choose_Language[7].Download[28].samsungp5)
+    const samsungp6 = useSelector( state => state.language.choose_Language[7].Download[29].samsungp6)
+    const samsungp7 = useSelector( state => state.language.choose_Language[7].Download[30].samsungp7)
+    const samsungp8 = useSelector( state => state.language.choose_Language[7].Download[31].samsungp8)
+
+    const lgh1 = useSelector( state => state.language.choose_Language[7].Download[32].lgh1)
+    const lgp1 = useSelector( state => state.language.choose_Language[7].Download[33].lgp1)
+    const lgp2 = useSelector( state => state.language.choose_Language[7].Download[34].lgp2)
+    const lgp3 = useSelector( state => state.language.choose_Language[7].Download[35].lgp3)
+    const lgp4 = useSelector( state => state.language.choose_Language[7].Download[36].lgp4)
+    const lgp5 = useSelector( state => state.language.choose_Language[7].Download[37].lgp5)
+    const lgp6 = useSelector( state => state.language.choose_Language[7].Download[38].lgp6)
+    const lgp7 = useSelector( state => state.language.choose_Language[7].Download[39].lgp7)
+    
 
   return (
     <div className='flex flex-col gap-y-6 sm:gap-y-12 p-3'>
@@ -104,10 +135,63 @@ const Download = () => {
         </div>
         </div>
 
-        <img src={img_5} alt="" />
+        <img src={smartImg} alt="" />
+        
+        <div>
+            <div 
+            onClick={() =>setShowSmart(!showSmart)}
+            className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
+                <h1 className='text-xl'>{h3}</h1>
+                {showSmart ?
+                <MdOutlineKeyboardArrowDown className='w-8 h-8'/> : <MdOutlineKeyboardArrowRight className='w-8 h-8'/>}
+            </div>
 
-        <div className='flex flex-col gap-y-5 py-6 p-2  leading-[2.5rem]'>
-            <h1 className='text-3xl font-semibold leading-[2.5rem]'>{h1}</h1>
+            {showSmart && 
+            <>
+            <div className='py-6 flex flex-col gap-y-4'>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{s1}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{s2}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{s3}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{s4}</p>
+            </div>
+            <div className='py-6 flex flex-col gap-y-3'>
+                <h1 className='font-semibold text-xl leading-[2.5rem] underline underline-offset-8'>{samsungh1}</h1>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{samsungp1}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{samsungp2}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{samsungp3}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{samsungp4}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{samsungp5}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{samsungp6}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{samsungp7}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{samsungp8}</p>
+            </div>
+            <div className='py-6 flex flex-col gap-y-3'>
+                <h1 className='font-semibold text-xl leading-[2.5rem] underline underline-offset-8'>{lgh1}</h1>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{lgp1}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{lgp2}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{lgp3}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{lgp4}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{lgp5}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{lgp6}</p>
+                <p className='tracking-wide text-xl leading-[2.5rem]'>{lgp7}</p>
+            </div>
+            </>}
+
+        </div>
+
+
+        <div>
+            <div 
+            onClick={() =>setShowFireStick(!showFireStick)}
+            className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
+                <h1 className='text-xl'>{h1}</h1>
+                {showFireStick ?
+                <MdOutlineKeyboardArrowDown className='w-8 h-8'/> : <MdOutlineKeyboardArrowRight className='w-8 h-8'/>}
+            </div>
+
+            {showFireStick && 
+            <div className='flex flex-col gap-y-5 py-6 p-2  leading-[2.5rem]'>
+            {/* <h1 className='text-3xl font-semibold leading-[2.5rem]'>{h1}</h1> */}
             <div>
                 <h1 className='download_heading leading-[2.5rem]'>{p1}</h1>
                 <p className='download_para leading-[2.5rem]'>{p2}</p>
@@ -124,9 +208,10 @@ const Download = () => {
                 <h1 className='download_heading leading-[2.5rem]'>{p7}</h1>
                 <p className='download_para leading-[2.5rem]'>{p8}</p>
             </div>
+        </div>}
         </div>
 
-        <div className=' mb-12 leading-[2rem]'>
+        <div className='  leading-[2rem]'>
             <div 
             onClick={() =>setShowBuffer(!showBuffer)}
             className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
@@ -167,6 +252,8 @@ const Download = () => {
         </div>
 
         {/* <img className='mb-6' src={img_5} alt="" /> */}
+
+        <img className='mb-12' src={img_5} alt="" />
 
         
     </div>

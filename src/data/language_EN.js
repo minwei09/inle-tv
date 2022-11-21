@@ -151,6 +151,31 @@ export const language_EN = [
             {b6: 'Routers themselves can make a big difference. You want to make sure you get/have a robust router.'},
             {b7: 'Choosing between the 2.4 and 5 ghz bands on your wireless router can make a difference. 5 is generally faster but 2.4 is generally more stable.'},
             {b8: 'Try them both and see what works for you. If your on 5 and having issues, switch to 2.4 and vice versa. If your router doesnt have dual bands then it may be time to upgrade. Please never use an all in one device that is a modem and wireless router. Make sure you have a seperate modem and router. The all in ones are generally junk. You should be rebooting your modem/router weekly to keep it in good working order. Reboot by unplugging them from the wayy and wait 2-3 minutes before plugging them back in. This reset can help with the buffering. If possible, hardwire your device to the router. That is, connect it directly to your modem or router with an ethernet cable so it is directly connected to the internet and doesnt use wifi. This will eliminate any/all issues related to wifi. Even amazon makes an ethernet adapter for firesticks because they know wifi can have/cause issues. Having an older device means processing power and chips are outdated and can be causing buffering. Things get better and require more to work efficiently. You wouldnt use that laptop from the 90’s to run a brand new video game. What video player you use can have an effect as well. Using a different player such as mx player or vlc can help with buffering. Both of those players are available for download from out filelinked store. ( filelink info is on the how to install pages ) Changing the setting within the app to use the hardware decoder instead of the software decoder can help give a better picture if your device has good processor and chips. If your using a firestick, make sure your using the hdmi extender. Having the stick hidden by the tv or furniture not only will cause interference with the wifi but can overheat the device ( especially since they never turn off ) and damage the wifi chips inside. Other devices near your firestick like security cameras can cause interference as well. Regularly delete apps not used and clear cache on apps you keep. A device that is near full on its resources will bog down and run slow. On a firestick, goto settings, applications, manage installed apps and then go down the list and delete ones you dont need and the ones you dont delete, click on them and go down and select clear cache. I know our service isnt perfect BUT the majority ( if not all ) of buffering you experience on live tv is not due to the service itself.'},
+
+            {h3: 'How to Install IPTV Smarters Pro on Samsung | LG Smart TV?'},
+            {s1: 'When it comes to choosing an IPTV player for Samsung or LG smart TV, IPTV SMARTER PRO is a perfect fit with its incredible features. Its user interface is an ease to handle. '},
+            {s2: 'This finest player is easily available on Samsung or LG app store from where one can download and install it very easily. It doesn’t require sideloading like Fire TV and no additional hardware.   '},
+            {s3: 'How to use IPTV Smarter Pro on Samsung Smart TV and LG Smart TV???'},
+            {s4: 'Getting IPTV Smaters Pro on your Samsung or LG smart TV involves following the following set of instructions.'},
+
+            {samsungh1: 'Installing  IPTV Smarters Pro on Samsung Smart TV'},
+            {samsungp1: '🔹Go to the Samsung Apps Store (https://www.samsung.com/us/apps/)  (https://www.samsung.com/us/apps/)Download (https://www.samsung.com/us/apps/) the IPTV Smarters Pro player.'},
+            {samsungp2: '🔹Sign in through Samsung iCloud account to install the player.'},
+            {samsungp3: '🔹After installation is finished, choose your region.'},
+            {samsungp4: '🔹Now open the application on your device.'},
+            {samsungp5: '🔹Click on Add to Samsung TV button. '},
+            {samsungp6: '🔹Enter the M3U link and the User Name.'},
+            {samsungp7: 'Samsung will now automatically detect the player. And you will get the list of available channels. '},
+            {samsungp8: 'Now your Samsung TV is fully  powered to use IPTV services through IPTV Smarters Pro. '},
+
+            {lgh1: 'Installing  IPTV Smarters Pro on LG TV'},
+            {lgp1: '🔹Go to the LG store (https://lgappstv.com/). make sure to keep internet connection on'},
+            {lgp2: '🔹Go to the search bar and enter IPTV Smarters Pro.'},
+            {lgp3: '🔹Install the app. Let the installation Finish'},
+            {lgp4: '🔹Enter the login credentials provided by the service provider. '},
+            {lgp5: 'Now your device is ready to use IPTV service. '},
+            {lgp6: 'Surely, you will get a different experience than watching traditional satellite TV content . You will have more options to watch and the best thing, you will have freedom and flexibility that you lack in the case of traditional TV. '},
+            {lgp7: 'The process is quite simple and easy, just follow the steps given above and bring the new world of entertainment to your home.'},
         ]
     },
 
