@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import {MdTv, MdPhoneIphone, MdMoney} from 'react-icons/md'
 import {IoMdTrophy, IoMdGlobe,} from 'react-icons/io'
 import {BsCashCoin, BsFilm} from 'react-icons/bs'
+import { Link } from 'react-router-dom';
 
 const box_items = [
     {id: 1, icon: <MdTv className='homebox_icon'/>},
@@ -34,7 +35,8 @@ const HomeBox = () => {
                   {/* <div className='sm:h-[18%]' dangerouslySetInnerHTML={{__html: item.icon}} /> */}
                   <hr className='w-full bg-slate text-softblue'/>
                   <h1 className='sm:h-[15%]  text-xl font-semibold text-blue text-center'>{item.name}</h1>
-                  <p className='sm:h-[60%] '>{item.paragraph}</p>                
+                  <p className='sm:h-[60%] '>{item.paragraph}</p>
+                  <Link to='/reseller' className={`${item.id === 6 ? 'block btn' : 'hidden'}`}>Read More</Link>                
               </div>
           ))
         }
