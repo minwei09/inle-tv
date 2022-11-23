@@ -5,7 +5,7 @@ import { language_MM } from '../../data/language_MM'
 
 
 const initialState = {
-  choose_Language : language_MM
+  choose_Language : language_EN
 }
 
 const languageSlice = createSlice({

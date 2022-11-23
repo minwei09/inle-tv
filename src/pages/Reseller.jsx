@@ -8,10 +8,10 @@ import {BsFillCheckCircleFill, BsXCircle, BsFacebook, BsMessenger, BsTelegram, B
 import logo from '../assets/pricing.jpg'
 
 const payment = [
-    {id: 1, credit: '50', price: '250'},
-    {id: 2, credit: '100', price: '400'},
-    {id: 3, credit: '200', price: '700'},
-    {id: 4, credit: '400', price: '1000'},
+    {id: 1, credit: '50', price: '300'},
+    {id: 2, credit: '100', price: '500'},
+    {id: 3, credit: '200', price: '800'},
+    {id: 4, credit: '400', price: '1200'},
 ]
 
 const Reseller = () => {

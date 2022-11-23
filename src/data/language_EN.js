@@ -31,6 +31,7 @@ export const language_EN = [
                 {id: 3, name: 'Global provider', paragraph: 'We offer our services World-Wide. There are no limits with our service. You can watch any channel you wish and buy subscription from where ever you are located.'},
                 {id: 4, name: 'High speed and stability', paragraph: 'Our infrastructure in regards of servers and bandwidth is one of its kind. We are very proud of our high quality channel list and streaming.'},
                 {id: 5, name: 'Custom playlist', paragraph: 'You can edit your channel list. The channels are grouped by countries, all you have to do is choose which you want.'},
+                {id: 6, name: 'Become A Reseller And Start Earning Money Today', paragraph: 'Becoming a reseller allows you to start selling the same day you start your reseller business. A reseller is someone that acquires a certain amount of credit to sell IPTV accounts to a third party'},
             ]},
 
             {h1: 'STOP OVERPAYING CABLE COMPANIES & STREAMING SERVICES'},

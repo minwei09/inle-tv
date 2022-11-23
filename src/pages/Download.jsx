@@ -140,8 +140,8 @@ const Download = () => {
         <div className='py-4 mt-20'>
             <div 
             onClick={() =>setShowSmart(!showSmart)}
-            className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
-                <h1 className='leading-5 p-3 sm:text-xl'>{h3}</h1>
+            className='min-w-full sm:min-w-fit flex min-w-xl items-center gap-6 p-4 shadow-lg cursor-pointer btn '>
+                <h1 className='leading-5 p-3 sm:text-xl sm:min-w-full'>{h3}</h1>
                 {showSmart ?
                 <MdOutlineKeyboardArrowDown className='w-8 h-8'/> : <MdOutlineKeyboardArrowRight className='w-8 h-8'/>}
             </div>
@@ -183,8 +183,8 @@ const Download = () => {
         <div className='py-4'>
             <div 
             onClick={() =>setShowFireStick(!showFireStick)}
-            className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
-                <h1 className='leading-5 p-3 sm:text-xl'>{h1}</h1>
+            className=' flex min-w-full sm:min-w-fit  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
+                <h1 className='leading-5 p-3 sm:text-xl '>{h1}</h1>
                 {showFireStick ?
                 <MdOutlineKeyboardArrowDown className='w-8 h-8'/> : <MdOutlineKeyboardArrowRight className='w-8 h-8'/>}
             </div>
@@ -214,8 +214,8 @@ const Download = () => {
         <div className='py-4 mb-20 leading-[2rem]'>
             <div 
             onClick={() =>setShowBuffer(!showBuffer)}
-            className=' flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
-                <h1 className='leading-5 p-3 sm:text-xl'>{h2}</h1>
+            className='min-w-full sm:min-w-fit flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
+                <h1 className='leading-5 p-3 sm:text-xl '>{h2}</h1>
                 {showBuffer ?
                 <MdOutlineKeyboardArrowDown className='w-8 h-8'/> : <MdOutlineKeyboardArrowRight className='w-8 h-8'/>}
             </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import { useSelector } from "react-redux";
 
-import {MdTv, MdPhoneIphone} from 'react-icons/md'
+import {MdTv, MdPhoneIphone, MdMoney} from 'react-icons/md'
 import {IoMdTrophy, IoMdGlobe,} from 'react-icons/io'
-import {BsFilm} from 'react-icons/bs'
+import {BsCashCoin, BsFilm} from 'react-icons/bs'
 
 const box_items = [
     {id: 1, icon: <MdTv className='homebox_icon'/>},
@@ -11,6 +11,7 @@ const box_items = [
     {id: 3, icon: <IoMdGlobe className='homebox_icon'/>},
     {id: 4, icon: <IoMdTrophy className='homebox_icon'/>},
     {id: 5, icon: <BsFilm className='homebox_icon'/>},
+    {id: 6, icon: <BsCashCoin className='homebox_icon'/>},
 ]
 
 
