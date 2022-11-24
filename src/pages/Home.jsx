@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay,Pagination } from "swiper";
-import Typical from 'react-typical'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 // image
