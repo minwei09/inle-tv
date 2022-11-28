@@ -35,7 +35,7 @@ const ContactUs = () => {
         </p>
 
         <p className='text-lg'>{p2}
-        <a href="mailto:blueoceanservice1@gmail.com">
+        <a href="mailto:inlelivetv@gmail.com">
             <div className='mt-3 flex flex-wrap items-center gap-3 w-fit border px-2 py-1 text-blue border-blue rounded-md sm:text-lg hover:text-white hover:bg-blue'>
                 <h1 className='wordbreak'>inlelivetv@gmail.com </h1>
                 <BsArrowRight />
@@ -55,7 +55,7 @@ const ContactUs = () => {
 
         <div className='bg- rounded-lg p-4 flex flex-col gap-y-4 py-5'>
             <h1 className='text-center text-xl font-semibold underline underline-offset-8 decoration-blue'>{p5}</h1>
-            <form target="_blank" action="https://formsubmit.co/blueoceanservice1@gmail.com" method="POST">
+            <form target="_blank" action="https://formsubmit.co/inlelivetv@gmail.com" method="POST">
             <div>
                 <div>
                     <h1>Name:</h1>
