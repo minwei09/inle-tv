@@ -23,27 +23,27 @@ const one_connection = [
     {connection_id: 1, plan: '1 Month 1 Connection', price: '20', credit_link: 'https://buy.stripe.com/28o3d4aJ96gFcM0289', pricetxt: pricingTxtv1}, 
     {connection_id: 2, plan: '3 Month 1 Connection', price: '50', credit_link: 'https://buy.stripe.com/9AQ5lcaJ9eNbaDSbIK', pricetxt: pricingTxtv1},
     {connection_id: 3, plan: '6 Month 1 Connection', price: '100',
-    credit_link: 'https://buy.stripe.com/fZe4h87wXbAZ9zOeUX', pricetxt: pricingTxtv1},
+    credit_link: 'https://buy.stripe.com/3cs6pg6sT20pdQ49AG', pricetxt: pricingTxtv1},
     {connection_id: 4, plan: '12 Month 1 Connection', price: '200',
     credit_link: 'https://buy.stripe.com/eVa00S3gH7kJcM03co', pricetxt: pricingTxtv1},
 ]
 
 const three_connection = [
     {connection_id: 1, plan: '1 Month 3 Connection', price: '40', credit_link: 'https://buy.stripe.com/28o3d4aJ96gFcM0289', pricetxt: pricingTxtv1}, 
-    {connection_id: 2, plan: '3 Month 3 Connection', price: '80', credit_link: 'https://buy.stripe.com/9AQ5lcaJ9eNbaDSbIK', pricetxt: pricingTxtv1},
+    {connection_id: 2, plan: '3 Month 3 Connection', price: '80', credit_link: 'https://buy.stripe.com/eVa14W5oPbAZ7rGfZc', pricetxt: pricingTxtv1},
     {connection_id: 3, plan: '6 Month 3 Connection ', price: '130',
-    credit_link: 'https://buy.stripe.com/fZe4h87wXbAZ9zOeUX', pricetxt: pricingTxtv1},
-    {connection_id: 4, plan: '12 Month 3 Connection', price: '200',
-    credit_link: 'https://buy.stripe.com/14k4h8aJ95cB9zOcMT', pricetxt: pricingTxtv1},
+    credit_link: 'https://buy.stripe.com/bIYfZQg3t8oN5jycN1', pricetxt: pricingTxtv1},
+    {connection_id: 4, plan: '12 Month 3 Connection', price: '220',
+    credit_link: 'https://buy.stripe.com/00g3d418zdJ7cM0fZe', pricetxt: pricingTxtv1},
 ]
 
 const five_connection = [
     {connection_id: 1, plan: '1 Month 5 Connection', price: '25', credit_link: 'https://buy.stripe.com/9AQbJAcRh0WlfYc4go', pricetxt: pricingTxtv1}, 
-    {connection_id: 2, plan: '3 Month 5 Connection', price: '60', credit_link: 'https://buy.stripe.com/28o6pg2cDfRfaDS4gp', pricetxt: pricingTxtv1},
-    {connection_id: 3, plan: '6 Month 5 Connection ', price: '100',
-    credit_link: 'https://buy.stripe.com/3cs9Bs9F57kJdQ49AK', pricetxt: pricingTxtv1},
-    {connection_id: 4, plan: '12 Month 5 Connection', price: '170',
-    credit_link: 'https://buy.stripe.com/14kaFwg3tcF3eU8cMX', pricetxt: pricingTxtv1},
+    {connection_id: 2, plan: '3 Month 5 Connection', price: '100', credit_link: 'https://buy.stripe.com/6oE14W7wX34t13icN4', pricetxt: pricingTxtv1},
+    {connection_id: 3, plan: '6 Month 5 Connection ', price: '180',
+    credit_link: 'https://buy.stripe.com/7sIaFweZp7kJcM06oH', pricetxt: pricingTxtv1},
+    {connection_id: 4, plan: '12 Month 5 Connection', price: '300',
+    credit_link: 'https://buy.stripe.com/3cs00S18zbAZ6nC3cx', pricetxt: pricingTxtv1},
 ]
 
 const Pricing = () => {
