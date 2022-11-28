@@ -78,7 +78,7 @@ const Home = () => {
           wrapper="p"
         /> */}
         <div>
-          <span className="text-blue">{text}</span>
+          <span className="text-blue overflow-scroll">{text}</span>
           <Cursor cursorColor='black' />
         </div>
       </div>

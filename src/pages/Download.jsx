@@ -92,6 +92,8 @@ const Download = () => {
     const lgp5 = useSelector( state => state.language.choose_Language[7].Download[37].lgp5)
     const lgp6 = useSelector( state => state.language.choose_Language[7].Download[38].lgp6)
     const lgp7 = useSelector( state => state.language.choose_Language[7].Download[39].lgp7)
+
+    const h4 = useSelector( state => state.language.choose_Language[7].Download[40].h4)
     
 
   return (
@@ -211,7 +213,7 @@ const Download = () => {
         </div>}
         </div>
 
-        <div className='py-4 mb-20 leading-[2rem]'>
+        <div className='py-4 leading-[2rem]'>
             <div 
             onClick={() =>setShowBuffer(!showBuffer)}
             className='min-w-full sm:min-w-fit flex  items-center gap-6 p-4 shadow-lg cursor-pointer btn'>
@@ -249,7 +251,11 @@ const Download = () => {
             </div>
             </div>
             }
+
+            
         </div>
+
+        <h1 className='my-12 leading-[3rem] text-center font-bold text-2xl md:text-3xl'>{h4}</h1>
 
         {/* <img className='mb-6' src={img_5} alt="" /> */}
 

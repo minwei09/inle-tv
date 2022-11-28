@@ -191,6 +191,8 @@ export const language_EN = [
             {lgp5: 'Now your device is ready to use IPTV service. '},
             {lgp6: 'Surely, you will get a different experience than watching traditional satellite TV content . You will have more options to watch and the best thing, you will have freedom and flexibility that you lack in the case of traditional TV. '},
             {lgp7: 'The process is quite simple and easy, just follow the steps given above and bring the new world of entertainment to your home.'},
+
+            {h4: 'BEST SERVICE WATCH ANYWHERE'}
         ]
     },
 
