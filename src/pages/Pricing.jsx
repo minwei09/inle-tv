@@ -21,7 +21,7 @@ const pricingTxtv1 = [
 
 const one_connection = [
     {connection_id: 1, plan: '1 Month 1 Connection', price: '20', credit_link: 'https://buy.stripe.com/28o3d4aJ96gFcM0289', pricetxt: pricingTxtv1}, 
-    {connection_id: 2, plan: '3 Month 1 Connection', price: '50', credit_link: 'https://buy.stripe.com/9AQ5lcaJ9eNbaDSbIK', pricetxt: pricingTxtv1},
+    {connection_id: 2, plan: '3 Month 1 Connection', price: '50', credit_link: 'https://buy.stripe.com/eVa3d4eZp7kJ13ifZ3', pricetxt: pricingTxtv1},
     {connection_id: 3, plan: '6 Month 1 Connection', price: '100',
     credit_link: 'https://buy.stripe.com/3cs6pg6sT20pdQ49AG', pricetxt: pricingTxtv1},
     {connection_id: 4, plan: '12 Month 1 Connection', price: '200',
