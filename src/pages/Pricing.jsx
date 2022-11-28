@@ -38,7 +38,7 @@ const three_connection = [
 ]
 
 const five_connection = [
-    {connection_id: 1, plan: '1 Month 5 Connection', price: '25', credit_link: 'https://buy.stripe.com/9AQbJAcRh0WlfYc4go', pricetxt: pricingTxtv1}, 
+    {connection_id: 1, plan: '1 Month 5 Connection', price: '60', credit_link: 'https://buy.stripe.com/9AQbJAcRh0WlfYc4go', pricetxt: pricingTxtv1}, 
     {connection_id: 2, plan: '3 Month 5 Connection', price: '100', credit_link: 'https://buy.stripe.com/6oE14W7wX34t13icN4', pricetxt: pricingTxtv1},
     {connection_id: 3, plan: '6 Month 5 Connection ', price: '180',
     credit_link: 'https://buy.stripe.com/7sIaFweZp7kJcM06oH', pricetxt: pricingTxtv1},
