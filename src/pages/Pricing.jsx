@@ -20,24 +20,30 @@ const pricingTxtv1 = [
 ]
 
 const one_connection = [
-    {id: 1, plan: '1 Month 1 Connection', price: '20', credit_link: 'https://buy.stripe.com/28o3d4aJ96gFcM0289', pricetxt: pricingTxtv1}, 
-    {id: 2, plan: '3 Month 1 Connection', price: '50', credit_link: 'https://buy.stripe.com/9AQ5lcaJ9eNbaDSbIK', pricetxt: pricingTxtv1},
-    {id: 3, plan: '6 Month 1 Connection', price: '100',
+    {connection_id: 1, plan: '1 Month 1 Connection', price: '20', credit_link: 'https://buy.stripe.com/28o3d4aJ96gFcM0289', pricetxt: pricingTxtv1}, 
+    {connection_id: 2, plan: '3 Month 1 Connection', price: '50', credit_link: 'https://buy.stripe.com/9AQ5lcaJ9eNbaDSbIK', pricetxt: pricingTxtv1},
+    {connection_id: 3, plan: '6 Month 1 Connection', price: '100',
     credit_link: 'https://buy.stripe.com/fZe4h87wXbAZ9zOeUX', pricetxt: pricingTxtv1},
+    {connection_id: 4, plan: '12 Month 1 Connection', price: '200',
+    credit_link: 'https://buy.stripe.com/eVa00S3gH7kJcM03co', pricetxt: pricingTxtv1},
 ]
 
 const three_connection = [
-    {id: 1, plan: '1 Month 3 Connection', price: '40', credit_link: 'https://buy.stripe.com/28o3d4aJ96gFcM0289', pricetxt: pricingTxtv1}, 
-    {id: 2, plan: '3 Month 3 Connection', price: '80', credit_link: 'https://buy.stripe.com/9AQ5lcaJ9eNbaDSbIK', pricetxt: pricingTxtv1},
-    {id: 3, plan: '6 Month 3 Connection ', price: '130',
+    {connection_id: 1, plan: '1 Month 3 Connection', price: '40', credit_link: 'https://buy.stripe.com/28o3d4aJ96gFcM0289', pricetxt: pricingTxtv1}, 
+    {connection_id: 2, plan: '3 Month 3 Connection', price: '80', credit_link: 'https://buy.stripe.com/9AQ5lcaJ9eNbaDSbIK', pricetxt: pricingTxtv1},
+    {connection_id: 3, plan: '6 Month 3 Connection ', price: '130',
     credit_link: 'https://buy.stripe.com/fZe4h87wXbAZ9zOeUX', pricetxt: pricingTxtv1},
+    {connection_id: 4, plan: '12 Month 3 Connection', price: '200',
+    credit_link: 'https://buy.stripe.com/14k4h8aJ95cB9zOcMT', pricetxt: pricingTxtv1},
 ]
 
 const five_connection = [
-    {id: 1, plan: '1 Month 5 Connection', price: '50', credit_link: 'https://buy.stripe.com/28o3d4aJ96gFcM0289', pricetxt: pricingTxtv1}, 
-    {id: 2, plan: '3 Month 5 Connection', price: '100', credit_link: 'https://buy.stripe.com/9AQ5lcaJ9eNbaDSbIK', pricetxt: pricingTxtv1},
-    {id: 3, plan: '6 Month 5 Connection ', price: '150',
-    credit_link: 'https://buy.stripe.com/fZe4h87wXbAZ9zOeUX', pricetxt: pricingTxtv1},
+    {connection_id: 1, plan: '1 Month 5 Connection', price: '25', credit_link: 'https://buy.stripe.com/9AQbJAcRh0WlfYc4go', pricetxt: pricingTxtv1}, 
+    {connection_id: 2, plan: '3 Month 5 Connection', price: '60', credit_link: 'https://buy.stripe.com/28o6pg2cDfRfaDS4gp', pricetxt: pricingTxtv1},
+    {connection_id: 3, plan: '6 Month 5 Connection ', price: '100',
+    credit_link: 'https://buy.stripe.com/3cs9Bs9F57kJdQ49AK', pricetxt: pricingTxtv1},
+    {connection_id: 4, plan: '12 Month 5 Connection', price: '170',
+    credit_link: 'https://buy.stripe.com/14kaFwg3tcF3eU8cMX', pricetxt: pricingTxtv1},
 ]
 
 const Pricing = () => {
@@ -50,6 +56,7 @@ const Pricing = () => {
     const [plan ,setPlan] = useState('')
     const [price, setPrice] = useState('')
     const [creditLink, setCreditLink] = useState('')
+    const [id, setId] = useState(null)
 
     const[activeOne, setActiveOne] = useState(true)
     const[activeTwo, setActiveTwo] = useState(false)
@@ -66,7 +73,8 @@ const Pricing = () => {
             setShowModal={setShowModal} 
             price={price} 
             plan={plan}
-            creditLink={creditLink}/>
+            creditLink={creditLink}
+            id={id}/>
 
         {/* -------------------------------MODAL --------------------- */}   
 
@@ -92,10 +100,10 @@ const Pricing = () => {
             {activeOne && 
             <div className={`flex flex-wrap justify-center sm:gap-8 lg:gap-12 `}>
             {one_connection.map( item => (
-                <div key={item.id} className='mb-[4rem] p-3 rounded-2xl shadow-xl bg-[#eeeeee] w-[20rem] '>
+                <div key={item.connection_id} className='mb-[4rem] p-3 rounded-2xl shadow-xl bg-[#eeeeee] w-[20rem] '>
                     <h1 className='py-3 text-xl text-center font-[900]'>{item.plan}</h1>
                     {item.pricetxt.map( txt => (
-                        <div key={txt?.id} className="flex gap-x-3 py-3 ">
+                        <div key={txt?.id} className="flex gap-x-3 py-3 items-center">
                            <div className='px-1 w-6 h-6 flex items-center'>
                            <BsFillCheckCircleFill className='text-blue'/>
                            </div>
@@ -105,7 +113,7 @@ const Pricing = () => {
                     <p className='py-3 text-center text-xl font-bold tracking-widest '>${item.price} /Month</p>
                     <div className='flex justify-center py-3'>
                         <button 
-                        onClick={() => {setShowModal(true) , setPlan(item.plan), setPrice(item.price), setCreditLink(item.credit_link)}}
+                        onClick={() => {setShowModal(true) , setPlan(item.plan), setPrice(item.price), setCreditLink(item.credit_link), setId(item.connection_id)}}
                         className='btn '>{p1}</button>
                     </div>
 
@@ -118,10 +126,10 @@ const Pricing = () => {
             {activeTwo && 
             <div className='flex flex-wrap justify-center sm:gap-8 lg:gap-12'>
             {three_connection.map( item => (
-                <div key={item.id} className='mb-[4rem] p-3 rounded-2xl shadow-xl bg-[#eeeeee] w-[20rem] '>
+                <div key={item.connection_id} className='mb-[4rem] p-3 rounded-2xl shadow-xl bg-[#eeeeee] w-[20rem] '>
                     <h1 className='py-3 text-xl text-center font-[900]'>{item.plan}</h1>
                     {item.pricetxt.map( txt => (
-                        <div key={txt?.id} className="flex gap-x-3 py-3 ">
+                        <div key={txt?.id} className="flex gap-x-3 py-3 items-center">
                            <div className='px-1 w-6 h-6 flex items-center'>
                            <BsFillCheckCircleFill className='text-blue'/>
                            </div>
@@ -131,7 +139,7 @@ const Pricing = () => {
                     <p className='py-3 text-center text-xl font-bold tracking-widest '>${item.price} /Month</p>
                     <div className='flex justify-center py-3'>
                         <button 
-                        onClick={() => {setShowModal(true) , setPlan(item.plan), setPrice(item.price), setCreditLink(item.credit_link)}}
+                        onClick={() => {setShowModal(true) , setPlan(item.plan), setPrice(item.price), setCreditLink(item.credit_link), setId(item.connection_id)}}
                         className='btn '>{p1}</button>
                     </div>
 
@@ -144,10 +152,10 @@ const Pricing = () => {
             {activeThree && 
             <div className='flex flex-wrap justify-center sm:gap-8 lg:gap-12'>
             {five_connection.map( item => (
-                <div key={item.id} className='mb-[4rem] p-3 rounded-2xl shadow-xl bg-[#eeeeee] w-[20rem] '>
+                <div key={item.connection_id} className='mb-[4rem] p-3 rounded-2xl shadow-xl bg-[#eeeeee] w-[20rem] '>
                     <h1 className='py-3 text-xl text-center font-[900]'>{item.plan}</h1>
                     {item.pricetxt.map( txt => (
-                        <div key={txt?.id} className="flex gap-x-3 py-3 ">
+                        <div key={txt?.id} className="flex gap-x-3 py-3 items-center">
                            <div className='px-1 w-6 h-6 flex items-center'>
                            <BsFillCheckCircleFill className='text-blue'/>
                            </div>
@@ -157,7 +165,7 @@ const Pricing = () => {
                     <p className='py-3 text-center text-xl font-bold tracking-widest '>${item.price} /Month</p>
                     <div className='flex justify-center py-3'>
                         <button 
-                        onClick={() => {setShowModal(true) , setPlan(item.plan), setPrice(item.price), setCreditLink(item.credit_link)}}
+                        onClick={() => {setShowModal(true) , setPlan(item.plan), setPrice(item.price), setCreditLink(item.credit_link), setId(item.connection_id)}}
                         className='btn '>{p1}</button>
                     </div>
 

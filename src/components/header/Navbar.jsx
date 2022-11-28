@@ -40,7 +40,7 @@ const Navbar = () => {
 
 
         {/* <img className='h-full p-2' src={Logo} alt="" /> */}
-        <Link to='/'><h1 className='cursor-pointer'>InleLive TV</h1></Link>
+        <Link to='/'><h1 className='cursor-pointer'>Inle Live TV</h1></Link>
 
         <div className='flex  gap-4'>
 

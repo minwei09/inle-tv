@@ -62,14 +62,28 @@ export const language_EN = [
                 {heading: 'WATCH ALL THE SPORTS YOU NEED NOW INCLUDED !'},
                 {p1: 'Stop paying for NBA league pass and more, Blue Ocean has them all included!'},
                 {p2: 'STOP WAITING AND GET YOUR TRIAL TODAY!'},
-                {button: 'GET YOUR 24HR TRIAL'}
+                {p3: 'IN OUR SERVICE'},
+                {p4: 'BEST MOVIES AND SERIES APP'},
+                {p5: 'Frequently Updated Movies, High Quality Movies'},
+                {button: 'GET YOUR 24HR TRIAL'},
+
+                {p6: 'FREQUENTLY ASKED QUESTIONS'},
+                {p7: 'HOW LONG DOES IT TAKE TO ACTIVATE THE SUBSCRIPTION?'},
+                {p8: 'When you ready payment  done after 30 min we will sending for you all login info'},
+                {p9: 'DO YOU SUPPORT MY DEVICE'},
+                {p10: 'We support all devices: SMART TV, PC,MAG, Smartphone, Android TV, Amazon Firestick,SMARTERS app and VLC M3U… Smart TV Amazon Devices Apple Devices PC Laptop Zgemma Satellite Box Dreambox Xbox One PS4 iPad iPhone Android Tablets and many more devices'},
+                {p11: 'WHAT PAYMENT METHODS ARE AVALIABLE?'},
+                {p12: 'You Can Pay With Paypal. For Credit & Debit card , Cash-app , Venmo , Zelle , Bank Transfer, Western Union , Bitcoin and Other Payments Methods, Just Contact US .'},
+                {p13: 'CAN I WATCH IPTV ANYWHERE IN THE WORLD?'},
+                {p14: 'Yes, you can watch IPTV from anywhere in the world but you will need to make sure your internet speed is above 3Mbps to watch the channels without any issues.'},
             ]},
 
             {Testimonial: [
                 {heading: 'What Our Customers Say'},
                 {customer_1: 'Thank you - that all seems to be working fine again now. Likely to be home for a while recovering so need my TV for sanity!! Appreciate the help It’s actually very good, from what I have seen so far'},
                 {customer_2: 'I just want to say if it wasn’t for people like you we wouldn’t tv so thank you for all your hard working in making tv good for people. I hope you keep up the good work that you do we really appreciate it . We love watching our favorite programs again and the choices we have are granite so thank you for all your hard work'},
-                {customer_3: 'Fist i have tired it for 3 months, works rock solid on multiple devices in the Netherlands. Now I bought it for a year, very happy and the support is really fast and very helpful. With both accounts I couldn’t start watching directly. After contact with the support my country was UK instead of NL. From asking help desk to got it fixed in a few minutes'}
+                {customer_3: 'Fist i have tired it for 3 months, works rock solid on multiple devices in the Netherlands. Now I bought it for a year, very happy and the support is really fast and very helpful. With both accounts I couldn’t start watching directly. After contact with the support my country was UK instead of NL. From asking help desk to got it fixed in a few minutes'},
+                {customer_4: 'I am very satisfied, they provide a really fast and quality service.A minute after paying, I started watching the channels. This fast service is really important! I want to commend them for serving in this way. I already realize that the comments are also constantly like my comment.'}
             ]},
 
             {contactus: 'Follow Us On Social Media'}
@@ -92,7 +106,7 @@ export const language_EN = [
         AboutUs: [
             {p1: 'One of the Largest IPTV provider in the World.'},
             {p2: 'WHO WE ARE'},
-            {p3: 'Inle TV Services was formed on March 1 , 2018 and is celebrating its 5th year  as one of the world’s leading providers of technology, communications, information and entertainment products and services.'},
+            {p3: 'Inle TV Services was formed on March 1 , 2017 and is celebrating its 5th year  as one of the world’s leading providers of technology, communications, information and entertainment products and services.'},
             {p4: 'The company offers voice, data and video services and solutions on its award winning networks and platforms, delivering on customers.'},
             {p5: 'About Us'},
             {p6: 'Inle LIVEis an online streaming global IPTV provider through instant activation and free installation fees. compatible with all devices.'},

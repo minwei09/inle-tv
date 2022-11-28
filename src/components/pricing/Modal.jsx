@@ -9,7 +9,7 @@ import {IoLogoVenmo, IoTerminal} from 'react-icons/io5'
 import { useSelector } from 'react-redux'
 
 
-const Modal = ({showModal, setShowModal, price, plan, creditLink}) => {
+const Modal = ({showModal, setShowModal, price, plan, creditLink, id}) => {
 
     const p1 = useSelector( state => state.language.choose_Language[6].ResellerModal[0].p1)
 
@@ -45,18 +45,26 @@ const Modal = ({showModal, setShowModal, price, plan, creditLink}) => {
                                     <IoLogoVenmo className='w-8 h-8 text-blue'/>
                                     <a className='font-semibold' href="https://venmo.com/code?user_id=2886066885361664202&created=1667850678.784536&printed=1" target='_blank'>Pay With Venmo</a>
                                 </div>
-                                <hr className='text-blue'/>
                                 
-
-  
-                            <div className='flex items-center sm:justify-center  gap-4 sm:gap-8'>
+                                
+                                {id === 1 ? 
+                                <></> :
+                                <>
+                                <hr className='text-blue'/>
+                                <div className='flex items-center sm:justify-center  gap-4 sm:gap-8'>
                             <img src={Credit} className='w-8 h-8 text-blue'/>
+                            
                             
                             <a 
                             href={creditLink}
                             className='font-semibold' target='_blank'>Pay With Credit Card</a>
                             
-                        </div>
+                                </div>
+                                </>
+                                
+                                }
+  
+                            
                             </div>
 
                             <div className='flex justify-end mt-5'>

@@ -42,7 +42,6 @@ const Home = () => {
   const [text] = useTypewriter({
     words: [`${homeHeading2.name}`],
     loop: Infinity,
-    onLoopDone: () => console.log(`loop completed after 3 runs.`)
   })
 
 

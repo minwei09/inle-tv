@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux'
 import img1 from '../../assets/testimonial/customer1.png'
 import img2 from '../../assets/testimonial/customer2.png'
 import img3 from '../../assets/testimonial/customer3.jpg'
+import img4 from '../../assets/testimonial/customer4.jpg'
 
 const Testimonial = () => {
 
@@ -14,6 +15,8 @@ const Testimonial = () => {
   const customer2 = useSelector(state => state.language.choose_Language[2].HomePage[6].Testimonial[2].customer_2)
 
   const customer3 = useSelector(state => state.language.choose_Language[2].HomePage[6].Testimonial[3].customer_3)
+
+  const customer4 = useSelector(state => state.language.choose_Language[2].HomePage[6].Testimonial[4].customer_4)
 
   return (
     <div className='p-4 text-white' 
@@ -49,6 +52,15 @@ const Testimonial = () => {
             <blockquote className='text-sm relative italic leading-6 tracking-wider text-slate-600'><span className='text-5xl '>&#8220;</span>{customer3}
             <span className='text-5xl absolute -bottom-12 right-4 '>&#8221;</span></blockquote>
             <h3 className='py-5 text-lg font-semibold '>Rebecca</h3>
+        </div>
+
+        <div
+        className='mb-20 text-center bg-blue rounded-md shadow-sm relative  mx-auto p-1 w-[20rem]'>
+            <p className='pb-16'></p>
+            <img className='w-20 h-20 rounded-full absolute -top-10 left-[36%]' src={img4} alt="" />
+            <blockquote className='text-sm relative italic leading-6 tracking-wider text-slate-600'><span className='text-5xl '>&#8220;</span>{customer4}
+            <span className='text-5xl absolute -bottom-12 right-4 '>&#8221;</span></blockquote>
+            <h3 className='py-5 text-lg font-semibold '>Matt</h3>
         </div>
 
         </div>
