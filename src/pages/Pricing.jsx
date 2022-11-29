@@ -73,7 +73,7 @@ const Pricing = () => {
             setShowModal={setShowModal} 
             price={price} 
             plan={plan}
-            creditLink={creditLink}
+            // creditLink={creditLink}
             id={id}/>
 
         {/* -------------------------------MODAL --------------------- */}   
@@ -175,7 +175,6 @@ const Pricing = () => {
             </div>
 
         </div>
-
 
 
         <div className='flex flex-col items-center justify-center'>
