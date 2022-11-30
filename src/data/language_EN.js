@@ -52,7 +52,7 @@ export const language_EN = [
             ]},
 
             {BoxingText: [
-                {heading: 'NEVER MISS A PPV EVENT AGAIN'},
+                {heading: `NEVER MISS A PPV EVENT AGAIN`},
                 {para_1: 'If you love watching Boxing, UFC, or any PPV Event.Inle TV has them all included with your monthly package.'},
                 {para_2: 'Don’t pay for a PPV ever again when you have our Premium Tv Service'},
                 {buyNow: 'BUY NOW'},
@@ -75,7 +75,7 @@ export const language_EN = [
                 {p11: 'WHAT PAYMENT METHODS ARE AVALIABLE?'},
                 {p12: 'You Can Pay With Paypal. For Credit & Debit card , Cash-app , Venmo , Zelle , Bank Transfer, Western Union , Bitcoin and Other Payments Methods, Just Contact US .'},
                 {p13: 'CAN I WATCH IPTV ANYWHERE IN THE WORLD?'},
-                {p14: 'Yes, you can watch IPTV from anywhere in the world but you will need to make sure your internet speed is above 3Mbps to watch the channels without any issues.'},
+                {p14: 'Yes, you can watch IPTV from anywhere in the world but you will need to make sure your internet speed is above 5Mbps to watch the channels without any issues.'},
             ]},
 
             {Testimonial: [
