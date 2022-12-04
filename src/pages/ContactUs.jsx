@@ -48,7 +48,7 @@ const ContactUs = () => {
 
        <div className='flex items-center gap-6'>
        <a href="https://wa.me/17166228262" target="_blank"><BsWhatsapp className='w-6 h-6 cursor-pointer text-blue'/></a>
-       <h1>716-622-8262</h1>
+       {/* <h1>716-622-8262</h1> */}
        </div>
 
         <p>{p4}</p>
